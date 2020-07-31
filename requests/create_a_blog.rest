@@ -1,9 +1,80 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1ZjIzZTFlYzI3NWE0YTczYWFjNzQ0MzgiLCJpYXQiOjE1OTYxOTA2Mzd9.dASrr9YceaiMOPGbYCQ0eSjMMLd5vrdWMe6m3EAKhKA
 
 {
-    "title": "The Future is Electric",
-    "author": "Elon Musk",
-    "url": "https://tesla.com",
-    "likes": 200
+    "title": "Things I don't know as of 2017",
+    "author": "Matti Luukkainen",
+    "url": "https://test.com",
+    "likes": 20,
+    "userId": "5f23e1ec275a4a73aac74438"
+}
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1ZjIzZTFlYzI3NWE0YTczYWFjNzQ0MzgiLCJpYXQiOjE1OTYxOTA2Mzd9.dASrr9YceaiMOPGbYCQ0eSjMMLd5vrdWMe6m3EAKhKA
+
+{
+    "title": "Things I don't know as of 2018",
+    "author": "Matti Luukkainen",
+    "url": "https://test.com",
+    "likes": 20,
+    "userId": "5f23e1ec275a4a73aac74438"
+}
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pY28iLCJpZCI6IjVmMjNlMWNlMjc1YTRhNzNhYWM3NDQzNyIsImlhdCI6MTU5NjE5MDY2OX0.SYPVPGD0Dz3MGhu-pnqKWC-G8no_KqENdWEmAUQKLYk
+
+{
+    "title": "Things I don't know as of 2019",
+    "author": "Nicolas",
+    "url": "https://test.com",
+    "likes": 20,
+    "userId": "5f23e1ce275a4a73aac74437"
+}
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pY28iLCJpZCI6IjVmMjNlMWNlMjc1YTRhNzNhYWM3NDQzNyIsImlhdCI6MTU5NjE5MDY2OX0.SYPVPGD0Dz3MGhu-pnqKWC-G8no_KqENdWEmAUQKLYk
+
+{
+    "title": "Things I don't know as of 2020",
+    "author": "Nicolas",
+    "url": "https://test.com",
+    "likes": 20,
+    "userId": "5f23e1ce275a4a73aac74437"
+}
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer 
+
+{
+    "title": "Things I don't know as of 2019",
+    "author": "Nicolas",
+    "url": "https://test.com",
+    "likes": 20,
+    "userId": "5f23e1ce275a4a73aac74437"
+}
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Things I don't know as of 2019",
+    "author": "Nicolas",
+    "url": "https://test.com",
+    "likes": 20,
+    "userId": "5f23e1ce275a4a73aac74437"
 }
